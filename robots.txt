@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /assets
+Disallow: /inc
+Disallow: /files
+Disallow: /scripts
+
+User-agent: Googlebot
+Disallow: /assets
+Disallow: /inc
+Disallow: /files
+Disallow: /scripts
+
+User-agent: Yandex
+Disallow: /assets
+Disallow: /inc
+Disallow: /files
+Disallow: /scripts
+Host: cctldby.ddns.net
+Sitemap: http://cctldby.ddns.net/sitemap.xml
