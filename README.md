@@ -23,7 +23,10 @@ Domains checker for auctions.cctld.by service (beta)
 1. Upload all the stuff
 2. Check paths in all files
 3. Create database and import SQL script into database
-4. Set up tasks in cron
+4. Set up tasks in cron for /scripts/auctions.php and /scripts/domains.py
+
+"auctions.php" - works for actual auctions date detection and generating of new tasks for domains.py
+"domains.py" - extracts actual domains list from auctions.cctld.by and stores everything into database, when all is done it also creates text file with date in the name and list of domains inside (in /files/ folder).
 </pre>
 
 ### In plans
